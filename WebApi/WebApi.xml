@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:StudentManager.Controllers.SchoolController.FilterAsync(System.Int32,System.Int32,System.String)">
+            <summary>
+            Lấy danh sách trường
+            </summary>
+        </member>
+        <member name="M:StudentManager.Controllers.SchoolController.GetAll">
+            <summary>
+            Lấy danh sách tất cả các trường
+            </summary>
+        </member>
+        <member name="M:StudentManager.Controllers.SchoolController.CreateAsync(Services.Dtos.Dbo.Input.SchoolCreateDto)">
+            <summary>
+            Tạo mới trường
+            </summary>
+        </member>
+        <member name="M:StudentManager.Controllers.SchoolController.UpdateAsync(Services.Dtos.Dbo.Input.SchoolUpdateDto)">
+            <summary>
+            Cập nhật trường
+            </summary>
+        </member>
+        <member name="M:StudentManager.Controllers.SchoolController.DeleteAsync(Services.Dtos.Shared.Inputs.EntityDto)">
+            <summary>
+            Xoá trường
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.GradeController.FilterAsync(System.Int32,System.Int32,System.Nullable{System.Guid},System.String)">
+            <summary>
+            Lấy danh sách lớp
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.GradeController.GetAll">
+            <summary>
+            Lấy danh sách tất cả các lớp
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.GradeController.GetAsync(System.Guid)">
+            <summary>
+            Lấy thông tin chi tiết lớp
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.GradeController.CreateAsync(Services.Dtos.Dbo.Input.GradeCreateDto)">
+            <summary>
+            Tạo mới lớp
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.GradeController.DeleteAsync(Services.Dtos.Shared.Inputs.EntityDto)">
+            <summary>
+            Xoá lớp
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.GradeController.UpdateAsync(Services.Dtos.Dbo.Input.GradeUpdateDto)">
+            <summary>
+            Cập nhật trường
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.StudentController.FilterAsync(System.Int32,System.Int32,System.Nullable{System.Guid},System.Nullable{System.Guid},System.String)">
+            <summary>
+            Lấy danh sách sinh viên
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.StudentController.GetAll">
+            <summary>
+            Lấy danh sách tất cả các sinh viên
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.StudentController.GetAsync(System.Guid)">
+            <summary>
+            Lấy thông tin chi tiết sinh viên
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.StudentController.CreateAsync(Services.Dtos.Dbo.Input.StudentCreateDto)">
+            <summary>
+            Tạo mới sinh viên
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.StudentController.DeleteAsync(Services.Dtos.Shared.Inputs.EntityDto)">
+            <summary>
+            Xoá sinh viên
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.StudentController.UpdateAsync(Services.Dtos.Dbo.Input.StudentUpdateDto)">
+            <summary>
+            Cập nhật sinh viên
+            </summary>
+        </member>
+    </members>
+</doc>
